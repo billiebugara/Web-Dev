@@ -1,0 +1,23 @@
+* {
+    background-color: #0f3610;
+}
+.box {
+    background-color: #5c0f22;
+    color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+.box1 {
+    padding: 10px
+}
+.box2 {
+    padding: 20px
+}
+.box3 {
+    padding: 30px
+}
+.box4 {
+    padding: 40px
+} 

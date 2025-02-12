@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    background-color: darkcyan
+}
+.container {
+    background-color: salmon;
+    color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container-1 {
+    background-color: mediumturquoise;
+    width: 50vw;
+    height: 50vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container-2 {
+    background-color: mediumspringgreen;
+    width: 25vw;
+    height: 25vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container-3 {
+    background-color: lightgoldenrodyellow;
+    width: 12.5vw;
+    height: 12.5vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

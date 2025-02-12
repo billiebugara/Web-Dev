@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: midnightblue
+}
+.row {
+    display: flex;
+  }
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+
+}
+.box, h1 {
+    font-size: xx-large;
+}
+* .box, h2 {
+    font-size: x-large;
+}
+* .box, p {
+    font-size: medium;
+}

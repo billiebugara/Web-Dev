@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    background-color: midnightblue
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+  }
+.column-left {
+    background-color: burlywood;
+    color: midnightblue;
+    /*flex: 30%;*/
+    width: 30vw;
+    height: 100vh;
+    padding: 20px;
+    float: left;
+    /* margin-right: 10px; */
+}
+.column-right {
+    background-color: peru;
+    color: midnightblue;
+    width: 70vw;
+    height: 100vh;
+    padding: 20px;
+    float: left;
+    /*margin-left: 10px;*/
+}
