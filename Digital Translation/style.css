@@ -1,0 +1,203 @@
+body {
+    font-family: "futura";
+    color: burlywood;
+    font-size: 20px;
+    background-color: #903d20;
+}
+a {
+    color: darkseagreen;
+}
+.banner-image {
+    justify-content: center;
+    width: 800px;
+    height: 150px;
+    background-image:url(https://d2w9rnfcy7mm78.cloudfront.net/34783952/original_d90557074461d3547351698507abd793.png?1740432115?bc=0);
+    opacity: 75%; 
+  }
+.line-1{
+    background-color: burlywood;
+    width:800px;
+    height: 5px;
+    margin-top: 10px;
+    opacity: 25%
+}
+.banner-row {
+    display:inline-flex;
+    flex-direction: row;
+    color: beige;
+    width: 800px;
+    grid-template-columns:repeat(3, minmax);
+    justify-content: space-around;
+    padding-top: 5px;
+    border: white;
+    border-radius: 10px;
+    border-color:antiquewhite;
+}
+.futura {
+    font-family: "futura";
+    font-size: 35px;
+    color: burlywood;
+  }
+.bodoni-1 {
+    font-family: "bodoni";
+    font-size: 50px;
+    color: burlywood;
+    opacity: 50%;
+}
+.bodoni-2 {
+    font-family: "bodoni";
+    font-size: 35px;
+    color: burlywood;
+}
+.line-2{
+    background-color: burlywood;
+    width:800px;
+    height: 5px;
+    opacity: 25%;
+}
+.tagline {
+    font-family: "futura";
+    color: burlywood;
+    font-size: 20px;
+    font-style: italic;
+    display: grid;
+    justify-content: right;
+    padding-top: 10px;
+    max-width: 800px;
+    min-width: min-content;
+}
+.row-1 {
+    width:800px;
+    height: 400px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bakery-box {
+    width: 300px;
+    height: 300px;
+    background-image:url(https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDgxMjg4OS9vcmlnaW5hbF8wNTg1YTU4MzFkZjY5ZDZiYTQ4Nzk4ZjYyN2VjYTIwYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=);
+    border-style: groove;
+    border-color: burlywood;
+}
+.bakery-text {
+    width: 300px;
+    height: 100px;
+    border-color: burlywood;
+    display: inline-block;
+    line-height: 5;
+    border-radius: 10px;
+    border-style: groove;
+    margin-top: 100px;
+    padding: 10px;
+}
+.compass-northwest {
+    background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/34844350/original_bde582d2b59a8fe7744de7291692739f.png?1740606489?bc=0);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+    display: block;
+    scale: 75%;
+    opacity: 50%;
+    margin-bottom: 50px;
+}
+.row-2 {
+    width:800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.asian-box {
+    width: 300px;
+    height: 300px;
+    background-image:url(https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDgxMjg4OC9vcmlnaW5hbF9lZTRkZmZkYzMwN2NlZGEzNmY1NzdjOGY2MGJkNWRhMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=);
+    border-color: black;
+    border-style: groove;
+    border-color: burlywood;
+}
+
+.asain-text {
+    width: 300px;
+    height: 300px;
+    border-color: burlywood;
+    display: inline-block;
+    line-height: 15;
+}
+.compass-north {
+    background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/34841684/original_a92adb7576ac6f3b36c96f6c033a0b53.png?1740600747?bc=0);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+    display: block;
+    scale: 75%;
+    opacity: 50%;
+    margin-bottom: 50px;
+}
+.row-3 {
+    width:800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.deli-box {
+    width: 300px;
+    height: 300px;
+    background-image:url(https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDgxMjg5MC9vcmlnaW5hbF81MGQ3ZGNiNjZlN2E2ZGQxODY4NGMwNTE2NDJlZjc4Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=);
+    border-style: groove;
+    border-color: burlywood;
+}
+.deli-text {
+    width: 300px;
+    height: 300px;
+    border-color: burlywood;
+    display: inline-block;
+    line-height: 15;
+}
+.compass-east {
+    background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/34844351/original_15648fddb5ed51d9fc984e605b581d08.png?1740606489?bc=0);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+    display: block;
+    scale: 75%;
+    opacity: 50%;
+    margin-bottom: 50px;
+}
+.row-4 {
+    width:800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.soup-box {
+    width: 300px;
+    height: 300px;
+    background-image:url(https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDgxMjg4Ny9vcmlnaW5hbF9kMmY5MjZkYmFhMzUxMDI3NDZlZWQyMWUyN2JkZTRjYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=);
+    border-style: groove;
+    border-color: burlywood;
+}
+.soup-text {
+    width: 300px;
+    height: 300px;
+    border-color: burlywood;
+    display: inline-block;
+    line-height: 15;
+}
+.compass-northeast {
+    background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/34844352/original_948514c4751a2d5688e2626304353163.png?1740606489?bc=0);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+    display: block;
+    scale: 75%;
+    opacity: 50%;
+    margin-bottom: 50px;
+}
