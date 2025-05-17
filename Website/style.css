@@ -1,0 +1,55 @@
+* {
+    background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/36649616/original_948db6a0850c9130715eef153807d84a.png?1747075418?bc=0);
+    background-size: cover;
+}
+
+.fade-in-1 {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.name {
+    width: 547px;
+	height: 159px;
+	margin: 20px;
+    background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/36673624/original_c70c2c82854e41bc7bc10fd08e6df047.png?1747146154?bc=0);
+	animation-name: fade-in-1;
+}
+
+.fade-in-2 {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+	animation-delay: 5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    justify-content: center;
+	scale: 75%;
+	opacity: 75%;
+}

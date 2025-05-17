@@ -1,0 +1,18 @@
+* {
+    width: 100vw;
+	height: 100vh;
+	background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/36650649/original_73c25eaf7ccbbd884a2afa86355364b8.png?1747078167?bc=0);
+	background-size: cover;
+}
+
+.splash {
+	background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/36650868/original_475099228451e23d3ab615019e6e8bff.gif?1747078697?bc=0);
+	background-size: cover;
+}
+
+.click {
+	width: 100vw;
+	height: 100vh;
+}
+
+
